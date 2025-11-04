@@ -9,8 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Lê Nguyên Group | Dự Án Bất Động Sản Cao Cấp",
-  description:
-    "Công ty bất động sản hàng đầu Việt Nam - Chuyên phát triển các dự án nhà ở, căn hộ cao cấp và khu đô thị hiện đại",
+  description: "Công ty môi giới bất động sản",
   generator: "Duong2306",
 };
 

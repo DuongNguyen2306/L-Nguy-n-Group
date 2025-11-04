@@ -1,15 +1,18 @@
-import { Target, Eye, Award } from "lucide-react"
+import { Target, Eye, Award } from "lucide-react";
 
 export function CompanyIntro() {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl text-center space-y-4 mb-16">
-          <h2 className="text-4xl font-bold text-balance">Lê Nguyên Group - Gắn kết niềm tin, dựng xây giá trị</h2>
+          <h2 className="text-4xl font-bold text-balance">
+            Lê Nguyên Group - Gắn kết niềm tin, dựng xây giá trị
+          </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Chuyên tư vấn và cung cấp các sản phẩm bất động sản chất lượng cao tại khu vực Đông Sài Gòn. Với phương châm
-            "Nhiệt Tâm – Uy Tín – Gắn Kết Dài Lâu", chúng tôi cam kết mang đến cho khách hàng những sản phẩm tốt nhất
-            với dịch vụ tận tâm.
+            Chúng tôi là công ty môi giới bất động sản chuyên nghiệp tại TP. Thủ
+            Đức (TP. HCM). Chuyên tư vấn các sản phẩm Đất nền - Nhà Phố - Căn
+            hộ. Với phương châm 'Nhiệt Tâm - Uy Tín - Gắn Kết Dài Lâu', chúng
+            tôi cam kết mang đến giá trị thực cho khách hàng.
           </p>
         </div>
 
@@ -20,7 +23,8 @@ export function CompanyIntro() {
             </div>
             <h3 className="text-xl font-semibold">Nhiệt Tâm</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Tận tâm tư vấn, đồng hành cùng khách hàng trong mọi giai đoạn từ tìm kiếm đến sở hữu bất động sản
+              Tận tâm tư vấn, đồng hành cùng khách hàng trong mọi giai đoạn từ
+              tìm kiếm đến sở hữu bất động sản
             </p>
           </div>
 
@@ -30,7 +34,8 @@ export function CompanyIntro() {
             </div>
             <h3 className="text-xl font-semibold">Uy Tín</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Minh bạch thông tin, pháp lý rõ ràng, cam kết chất lượng sản phẩm và dịch vụ
+              Minh bạch thông tin, pháp lý rõ ràng, cam kết chất lượng sản phẩm
+              và dịch vụ
             </p>
           </div>
 
@@ -40,11 +45,12 @@ export function CompanyIntro() {
             </div>
             <h3 className="text-xl font-semibold">Gắn Kết Dài Lâu</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Xây dựng mối quan hệ bền vững, hỗ trợ khách hàng ngay cả sau khi giao dịch hoàn tất
+              Xây dựng mối quan hệ bền vững, hỗ trợ khách hàng ngay cả sau khi
+              giao dịch hoàn tất
             </p>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
